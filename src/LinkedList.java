@@ -84,13 +84,13 @@ public class LinkedList{
 
 	}
 
-	public Node findById(String id){
+	public Node findById(int id){
 
 		Node theNode = head;
 
 		if(!isEmpty()){
 
-			while(theNode.name != id){
+			while(theNode.id != id){
 
 				// Checks if at the end of the LinkedList
 
